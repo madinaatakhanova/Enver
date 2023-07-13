@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  }
+
+  ul{
+    list-style: none;
+  }
+  a{
+    text-decoration: none;
+  }
+
+
+  body{
+    background: #19191B;
+  }
+  /* =======Header======= */
+  
+  header{
+   max-width: 100%;
+   background: #19191B;
+   margin: 0 auto;
+   height: 72px;
+   display: flex;
+   align-items: center;
+  }
+  
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1240px;
+    margin: 0 auto;
+  }
+  .nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+  .nav-list_item a{
+     color: rgba(255, 255, 255, 0.70);
+     text-decoration: none;
+  }
+  .nav-list_item a:hover{
+    color: #5454D4;
+  }
+  .button_nav{
+   padding: 11px 42px 11px 42px;
+   background-color: transparent;
+   color: #fff;
+   border: none;
+   border:1px solid #fff;
+   border-radius: 5px;
+  }
+  .button_nav:hover{
+    background-color: #5454D4;
+    color: #fff;
+    border: none;
+    padding: 11px 42px 11px 42px;
+  }
+
+  /* ========end of header */
+
+  /* ==========section 1 start =============*/
+  .container{
+  max-width: 1440px;
+  margin: 0 auto;
+  }
+  .panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
+  }
+  .panel-title h1{
+   color: #FFF;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 84px;
+  }
+  .panel-title p{
+    color: rgba(255, 255, 255, 0.70);
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 39px;
+  width: 509px;
+  margin: 40px 0 60px 0;
+  }
+  .button-panel{
+    padding: 16px 59px 15px 27px;
+    background-color: #5454D4;
+    color: #FFF;
+    border-radius: 5px;
+    border: none;
+  }
+
+  .button-panel:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 59px 14px 27px;
+
+  }
+  .panel-img{
+    position: relative;
+  }
+  .img-potition-1{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+  }
+  .img-potition-2{
+    position: absolute;
+    top: 5%;
+    left: 0%;
+  }
+
+  .img-potition-3{
+    position: absolute;
+    top: 5%;
+    right: 0;
+  }
+  .container-text{
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    padding: 150px 120px 50px 120px;
+    align-items: center;
+  }
+  /* ==========section 1 end ================= */
+
+
+  /* ==========section 2 start =============*/
+
+.container-text h2{
+  font-size: 60px;
+  font-weight: 700px;
+  color: #FFF;
+  line-height: 70px;
+}
+.container-text p{
+  color: rgba(255, 255, 255, 0.70);
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 39px;
+}
+  .video{
+   display: flex;
+   justify-content: center;
+  }
+    .service{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+    .service h1{
+      color: #fff;
+      text-align: center;
+      font-size: 60px;
+      font-weight: 700;
+      line-height: 70px;
+      padding: 150px 0 0 0 ;
+    }
+    .card-container{
+      display: flex;
+      padding: 100px 120px;
+      flex-wrap: wrap;
+    }
+    .card{
+      margin: 1%;
+      width: 30%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+     flex-direction: column;
+     color: #fff;
+     text-align: center;
+    }
+    .card h3{
+      font-size: 28px;
+      font-weight: 600;
+      letter-spacing: -0.75px;
+      margin: 20px 0;
+    }
+    .card p{
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 28px;
+      color: rgba(255, 255, 255, 0.70);
+    }
+
+
+  /* ==========section 2 end =============*/
+
+  /* ==========section 3 start =============*/
+
+    .portofolio h1{
+      color: #fff;
+      font-size: 58px;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .portofolio{
+      position: relative;
+      height: 50vh;
+      overflow: hidden;
+    }
+    .img_div-1{
+      position: absolute;
+      top: 14%;
+      left: 5%;
+      border-radius: 5px;
+    }
+    .img_div-2{
+      position: absolute;
+      top: 30%;
+      right: 37%  ;
+      border-radius: 5px;
+    }
+    .img_div-3{
+      position: absolute;
+      top:  50%;
+      right:5%;
+      border-radius: 5px;
+    }
+
+  .btn-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+  }
+
+.btn__group{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000;
+  border: none;
+}
+
+.btn__group:active{
+  background-color: #5454D4;
+}
+
+  /* ==========section 3 end =============*/
+
+  /* ==========section 4 start =============*/
+
+.container-bg{
+  background: rgba(30, 30, 32, 0.50);
+  height: 506px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.container-title{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 173px;
+}
+
+.container-title h2{
+  color: #FFF;
+  font-size: 50px;
+  width: 726px;
+  font-weight: 700;
+}
+.container-btn{
+    padding: 11px 42px 11px 42px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border:1px solid #fff;
+    border-radius: 5px;
+    width: 250px;
+  }
+  .container-btn:hover{
+    background-color: #5454D4;
+    color: #fff;
+    border: none;
+    padding: 11px 42px 11px 42px;
+  }
+
+.img-endSection{
+  position: absolute;
+  left: 10%;
+  bottom: 10%;
+}
+.img-endSection-2{
+  position: absolute;
+  top: 5%;
+  right: 10%;
+}
+
+  /* ==========section 4 end =============*/
+
+  /*===========FOOTER-START===========*/
+.footer-container{
+  height: 190px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav_footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 272px;
+}
+
+.footer-list{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.footer-list__item a{
+  color:#fff;
+}
+.link_footer{
+  color: #fff;
+}
+
+  /*===========FOOTER-END===========*/
